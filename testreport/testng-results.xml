@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="93305" started-at="2017-08-05T09:50:13Z" finished-at="2017-08-05T09:51:47Z">
+    <groups>
+      <group name="Smk">
+        <method signature="LoginScript.InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" class="TestScripts.LoginScript"/>
+        <method signature="LoginScript.Login(java.util.Map)[pri:1, instance:TestScripts.LoginScript@58ceff1]" name="Login" class="TestScripts.LoginScript"/>
+      </group> <!-- Smk -->
+      <group name="Reg">
+        <method signature="LoginScript.Login(java.util.Map)[pri:1, instance:TestScripts.LoginScript@58ceff1]" name="Login" class="TestScripts.LoginScript"/>
+      </group> <!-- Reg -->
+      <group name="UAT">
+        <method signature="LoginScript.Login(java.util.Map)[pri:1, instance:TestScripts.LoginScript@58ceff1]" name="Login" class="TestScripts.LoginScript"/>
+      </group> <!-- UAT -->
+    </groups>
+    <test name="TestNG" duration-ms="93305" started-at="2017-08-05T09:50:13Z" finished-at="2017-08-05T09:51:47Z">
+      <class name="TestScripts.LoginScript">
+        <test-method status="PASS" signature="createreport()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="createreport" is-config="true" duration-ms="359" started-at="2017-08-05T15:20:13Z" finished-at="2017-08-05T15:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createreport -->
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="launchapp" is-config="true" duration-ms="17649" started-at="2017-08-05T15:20:15Z" finished-at="2017-08-05T15:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" duration-ms="4642" started-at="2017-08-05T15:20:32Z" data-provider="InvalidLogin" finished-at="2017-08-05T15:20:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=InvalidLogin, TC_ID=GB_01, Execute=Y, pwd=sfh, exp_msg=Sorry we were unable to complete this step because :, username=iweyr}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="closeapp" is-config="true" duration-ms="16" started-at="2017-08-05T15:20:37Z" finished-at="2017-08-05T15:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="launchapp" is-config="true" duration-ms="5579" started-at="2017-08-05T15:20:37Z" finished-at="2017-08-05T15:20:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" duration-ms="2153" started-at="2017-08-05T15:20:43Z" data-provider="InvalidLogin" finished-at="2017-08-05T15:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=2.0, Script=InvalidLogin, TC_ID=GB_01, Execute=Y, pwd=jch, exp_msg=Sorry we were unable to complete this step because :, username=sajgh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="closeapp" is-config="true" duration-ms="16" started-at="2017-08-05T15:20:45Z" finished-at="2017-08-05T15:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="launchapp" is-config="true" duration-ms="5910" started-at="2017-08-05T15:20:45Z" finished-at="2017-08-05T15:20:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" duration-ms="12264" started-at="2017-08-05T15:20:51Z" data-provider="InvalidLogin" finished-at="2017-08-05T15:21:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=3.0, Script=InvalidLogin, TC_ID=GB_01, Execute=Y, pwd=jzdksd, exp_msg=Sorry we were unable to complete this step because :, username=fdsfd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="closeapp" is-config="true" duration-ms="16" started-at="2017-08-05T15:21:03Z" finished-at="2017-08-05T15:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="launchapp" is-config="true" duration-ms="5735" started-at="2017-08-05T15:21:03Z" finished-at="2017-08-05T15:21:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" duration-ms="1712" started-at="2017-08-05T15:21:09Z" data-provider="InvalidLogin" finished-at="2017-08-05T15:21:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=InvalidLogin, TC_ID=GB_02, Execute=Y, pwd=learn123, exp_msg=Sorry we were unable to complete this step because :, username=kjsadhc}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="closeapp" is-config="true" duration-ms="19" started-at="2017-08-05T15:21:10Z" finished-at="2017-08-05T15:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="launchapp" is-config="true" duration-ms="5771" started-at="2017-08-05T15:21:10Z" finished-at="2017-08-05T15:21:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" duration-ms="3072" started-at="2017-08-05T15:21:16Z" data-provider="InvalidLogin" finished-at="2017-08-05T15:21:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=InvalidLogin, TC_ID=GB_03, Execute=Y, pwd=kdsf, exp_msg=Sorry we were unable to complete this step because :, username=qtpworld2008@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="closeapp" is-config="true" duration-ms="16" started-at="2017-08-05T15:21:19Z" finished-at="2017-08-05T15:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="launchapp" is-config="true" duration-ms="5300" started-at="2017-08-05T15:21:19Z" finished-at="2017-08-05T15:21:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" duration-ms="4104" started-at="2017-08-05T15:21:25Z" data-provider="InvalidLogin" finished-at="2017-08-05T15:21:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=InvalidLogin, TC_ID=GB_04, Execute=Y, pwd=learn123, exp_msg=Sorry we were unable to complete this step because :, username=dsf}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="closeapp" is-config="true" duration-ms="16" started-at="2017-08-05T15:21:29Z" finished-at="2017-08-05T15:21:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="launchapp" is-config="true" duration-ms="6096" started-at="2017-08-05T15:21:29Z" finished-at="2017-08-05T15:21:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" duration-ms="3948" started-at="2017-08-05T15:21:35Z" data-provider="InvalidLogin" finished-at="2017-08-05T15:21:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=InvalidLogin, TC_ID=GB_05, Execute=Y, pwd=sdasd, exp_msg=Sorry we were unable to complete this step because :, username=qtpworld2008@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="closeapp" is-config="true" duration-ms="16" started-at="2017-08-05T15:21:39Z" finished-at="2017-08-05T15:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="launchapp(java.lang.String)[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="launchapp" is-config="true" duration-ms="5600" started-at="2017-08-05T15:21:39Z" finished-at="2017-08-05T15:21:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+        <test-method status="PASS" signature="InvalidLogin(java.util.Map)[pri:2, instance:TestScripts.LoginScript@58ceff1]" name="InvalidLogin" duration-ms="2380" started-at="2017-08-05T15:21:44Z" data-provider="InvalidLogin" finished-at="2017-08-05T15:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, Script=InvalidLogin, TC_ID=GB_06, Execute=Y, pwd=dsd, exp_msg=Sorry we were unable to complete this step because :, username=dfsf}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:TestScripts.LoginScript@58ceff1]" name="closeapp" is-config="true" duration-ms="19" started-at="2017-08-05T15:21:47Z" finished-at="2017-08-05T15:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- TestScripts.LoginScript -->
+    </test> <!-- TestNG -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="ff"/>
+  <test name="TestNG">
+    <parameter name="browser" value="ff"/>
+    <groups>
+      <run>
+        <include name="Smk"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestScripts.LoginScript"/>
+    </classes>
+  </test> <!-- TestNG -->
+</suite> <!-- Failed suite [Suite] -->

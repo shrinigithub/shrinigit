@@ -1,0 +1,2 @@
+env=qa
+qa=http://books.rediff.com/
